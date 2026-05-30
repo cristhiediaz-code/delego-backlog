@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Feature } from "@/types";
-import { Calendar, User, Users, Pencil, Trash2 } from "lucide-react";
+import { Calendar, User, Users, Trash2 } from "lucide-react";
 import { CategoryBadge, TagBadge } from "./Badge";
 import { StatusSelector } from "./StatusSelector";
 import { VoteButton } from "./VoteButton";
@@ -35,19 +35,17 @@ export function FeatureCard({ feature, rank }: Props) {
               </span>
             )}
             <div className="min-w-0">
-              <h3 className="font-semibold text-gray-900 text-base leading-snug">{feature.title}</h3>
+              <h3
+                onClick={() => setEditing(true)}
+                className="font-semibold text-gray-900 text-base leading-snug cursor-pointer hover:text-brand-600 hover:underline transition-colors"
+              >
+                {feature.title}
+              </h3>
               <p className="text-gray-500 text-sm mt-1 line-clamp-2">{feature.description}</p>
             </div>
           </div>
           <div className="flex items-center gap-2 flex-shrink-0">
             <VoteButton featureId={feature.id} voteCount={feature.votes.length} />
-            <button
-              onClick={() => setEditing(true)}
-              title="Editar"
-              className="p-1.5 rounded-lg text-gray-400 hover:text-brand-600 hover:bg-brand-50 transition-colors"
-            >
-              <Pencil className="w-4 h-4" />
-            </button>
             {confirmDelete ? (
               <div className="flex items-center gap-1">
                 <button
