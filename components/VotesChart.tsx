@@ -30,13 +30,7 @@ export function VotesChart({ features }: Props) {
                   className="h-full rounded-full flex items-center justify-end pr-2 transition-all duration-500"
                   style={{
                     width: `${Math.max(pct, 4)}%`,
-                    background: i === 0
-                      ? "linear-gradient(90deg, #f59e0b, #fbbf24)"
-                      : i === 1
-                      ? "linear-gradient(90deg, #6b7280, #9ca3af)"
-                      : i === 2
-                      ? "linear-gradient(90deg, #b45309, #d97706)"
-                      : "linear-gradient(90deg, #4f6ef7, #7c91fa)",
+                    background: "linear-gradient(90deg, #4f6ef7, #7c91fa)",
                   }}
                 >
                   {pct > 15 && <span className="text-white text-xs font-semibold">{f.votes.length}</span>}
