@@ -1,13 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { Upload, CheckCircle2, AlertCircle } from "lucide-react";
 import { saveFeatures } from "@/lib/storage";
 import { Feature } from "@/types";
 
 export default function ImportPage() {
-  const router = useRouter();
   const [state, setState] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [count, setCount] = useState(0);
 
