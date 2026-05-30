@@ -25,7 +25,9 @@ async function fetchFeatures(): Promise<Feature[]> {
 
   if (error) { console.error(error); return []; }
 
-  return (featuresData ?? []).map((f: any) => ({
+  type RawVote = { customer: string; voted_at: string };
+  type RawFeature = { id: string; title: string; description: string; customer: string; category: string; subcategory: string | null; tags: string[]; status: string; created_at: string; votes: RawVote[] };
+  return (featuresData as RawFeature[]).map((f) => ({
     id: f.id,
     title: f.title,
     description: f.description ?? "",
@@ -35,7 +37,7 @@ async function fetchFeatures(): Promise<Feature[]> {
     tags: f.tags ?? [],
     status: f.status as Status,
     createdAt: f.created_at,
-    votes: (f.votes ?? []).map((v: any): Vote => ({
+    votes: (f.votes ?? []).map((v): Vote => ({
       customer: v.customer,
       votedAt: v.voted_at,
     })),
