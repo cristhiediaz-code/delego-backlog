@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm --version)",
+      "Bash(ls \"/Users/cris15/Library/Application Support/Claude/local-agent-mode-sessions/a8599ab0-a759-446d-91a0-44c280d5c2ea/99369411-7933-47ab-992d-27da6de38cba/rpm/plugin_01AYHYqVLaZRH2Vi6aHgDwEw/bin\")",
+      "Bash(ls \"/Users/cris15/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/99369411-7933-47ab-992d-27da6de38cba/a8599ab0-a759-446d-91a0-44c280d5c2ea/bin\" 2>/dev/null | head -10)",
+      "Bash(ls /Applications/ | grep -i node)",
+      "Bash(node_modules/.bin/next build *)",
+      "Bash(ls ~/Downloads/ | grep -iE \"delego|logo|intelligis\" | head -10)",
+      "Bash(cp ~/Downloads/Delegologo.svg /Users/cris15/app-backlog-delego/app-backlog-delego/public/delego-logo.svg)",
+      "Bash(cp /tmp/canny_import.json /Users/cris15/app-backlog-delego/app-backlog-delego/public/canny_import.json)",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git rm *)",
+      "Bash(rm -rf .git && git init && git add . && git commit -m \"Initial commit - Delego Backlog\" 2>&1 | tail -5)"
+    ]
+  }
+}

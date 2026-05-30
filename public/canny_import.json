@@ -1,0 +1,2378 @@
+[
+  {
+    "id": "6915ea7b95bf38a5b950be7c",
+    "title": "Reconocimiento de Imágenes con IA desde la captura en el formulario",
+    "description": "Que el aplicativo sea capaz de reconocer patrones y validar con checklist previamente configurado si los prodcutos de una estantería están correctamente ordenados, cantidades y marcas disponibles, entre otros \n\nCaso cotización Brand Solutions Mercaderistas",
+    "customer": "Jennifer Morrillo",
+    "category": "Mobile",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-11-13T14:26:03.936Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-11-13T14:26:03.936Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2025-11-13T14:26:03.936Z"
+      }
+    ]
+  },
+  {
+    "id": "6915e75519bd88662d3f5d5b",
+    "title": "Incorporación inicio de sesión en app mobile con datos Biométricos",
+    "description": "Cliente Brand Solutions requiere incorporar inicio de sesión con Huella y Face.\n\nHeineken con Huella",
+    "customer": "Jennifer Morrillo",
+    "category": "Mobile",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-11-13T14:12:37.501Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-11-13T14:12:37.501Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2025-11-13T14:12:37.501Z"
+      }
+    ]
+  },
+  {
+    "id": "6915df2b82eb3aabc859a887",
+    "title": "Imprimir el recibo en físico en el momento de completar el formulario",
+    "description": "Biopersa ¿Tendrá Delego opción para imprimir el recibo en físico en el momento de completar el formulario? Pensando en llevar impresoras portátiles para nuestras rutas",
+    "customer": "Jennifer Morrillo",
+    "category": "Mobile",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-11-13T13:37:47.334Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-11-13T13:37:47.334Z"
+      }
+    ]
+  },
+  {
+    "id": "6915deb48d77fcdbabff440a",
+    "title": "Reorganizar la ruta a partir de la selección de una tarea y colocación de nro 1 en la fila",
+    "description": "Caso Carbone: a pesar que los usuarios se les da una asignación del día, ellos reordenan en el momento de salir con sus camiones, debido a que por el tipo de material, condiciones de los clientes, orden de carga de los vehículos, ellos deciden el orden de los clientes a entregar, en la app de la competencia ellos pueden seleccionar el cliente secuencia 4 por ejemplo moverlo al principio y a partir de allí se reordena la secuencia, ésto lo repiten con cada pedido asignado a conveniencia.",
+    "customer": "Jennifer Morrillo",
+    "category": "Mobile",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-11-13T13:35:48.600Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-11-13T13:35:48.600Z"
+      }
+    ]
+  },
+  {
+    "id": "67ec39a8db86352c90842ec5",
+    "title": "Fechas de completación y no solo de planificación para la descarga de reportes y en los filtros de fechas",
+    "description": "Fechas de completación y no solo de planificación para la descarga de reportes y en los filtros de fechas",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [
+      "Easy Design",
+      "Must have"
+    ],
+    "status": "En espera",
+    "createdAt": "2025-04-01T19:08:24.454Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-04-01T19:08:24.454Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2025-04-01T19:08:24.454Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2025-04-01T19:08:24.454Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2025-04-01T19:08:24.454Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2025-04-01T19:08:24.454Z"
+      },
+      {
+        "customer": "Cliente 6",
+        "votedAt": "2025-04-01T19:08:24.454Z"
+      }
+    ]
+  },
+  {
+    "id": "67e6c496b55e94a8f182eefc",
+    "title": "Integración con Esri",
+    "description": "Integración con Esri",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [
+      "5",
+      "Must have",
+      "Req Estratégico"
+    ],
+    "status": "En espera",
+    "createdAt": "2025-03-28T15:47:34.144Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-03-28T15:47:34.144Z"
+      }
+    ]
+  },
+  {
+    "id": "67e43a09773a9301683f4eea",
+    "title": "Agregar los campos personalizados de la tarea en el app",
+    "description": "Agregar los campos personalizados de la tarea en el app",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "5",
+      "Req Crítico de Cliente"
+    ],
+    "status": "En espera",
+    "createdAt": "2025-03-26T17:31:53.026Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-03-26T17:31:53.026Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2025-03-26T17:31:53.026Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2025-03-26T17:31:53.026Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2025-03-26T17:31:53.026Z"
+      }
+    ]
+  },
+  {
+    "id": "67e4396dc873c31c0733ef02",
+    "title": "Clonar tareas multiples",
+    "description": "Cuando tienes grandes volúmenes de datos y quieres copiar unas tareas ejecutadas 1 dia y ponerlas en otro tienes que hacer el proceso 1a1, inhabilitando flujos de escala grande",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-03-26T17:29:17.547Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-03-26T17:29:17.547Z"
+      }
+    ]
+  },
+  {
+    "id": "67e420e102f4e7b2d8770d2a",
+    "title": "Reporte de facturación",
+    "description": "Reporte de facturación",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-03-26T15:44:33.368Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-03-26T15:44:33.368Z"
+      }
+    ]
+  },
+  {
+    "id": "67e41dece609ad585d833fba",
+    "title": "Mejoras para flujos de grandes volúmenes de datos",
+    "description": "Temas como los clusters en determinados zooms, la mejora del consumo de listado de tareas, la vista de corrida de rutas al tener grandes selecciones de mas de 3000 datos\n\ntambien como deben encolarse los datos para crear asignaciones de rutas producto de selecciones masivas que respeten zonas, asigno agentes y como hago para no tomar en consideración ese lote de agentes",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-03-26T15:31:56.626Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-03-26T15:31:56.626Z"
+      }
+    ]
+  },
+  {
+    "id": "67e41d3a773a930168194a4a",
+    "title": "Que las rutas respeten los teams",
+    "description": "Esta funcionalidad permitirá correr rutas en simultanea sin tener que prefiltar previamente para garantizar que los agentes de otros teams hagan zonas que no corresponden, también habilita poder correr multiples zonas/ teams en simultaneo para habilitar flujos de grandes volumenes de datos como es el caso para Falabella",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-03-26T15:28:58.648Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-03-26T15:28:58.648Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "67dacd268523fa6743df33dd",
+    "title": "Opcion para no permitir que el ID no se repita",
+    "description": "Opcion para no permitir que el ID no se repita",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "Easy Design"
+    ],
+    "status": "En espera",
+    "createdAt": "2025-03-19T13:56:54.433Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-03-19T13:56:54.433Z"
+      }
+    ]
+  },
+  {
+    "id": "67b4b2e2546550a1daf2da20",
+    "title": "Tarea con capacidad grande que se divide en multiples tareas",
+    "description": "Tarea con capacidad grande que se divide en multiples tareas",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2025-02-18T16:18:42.375Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2025-02-18T16:18:42.375Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2025-02-18T16:18:42.375Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2025-02-18T16:18:42.375Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2025-02-18T16:18:42.375Z"
+      }
+    ]
+  },
+  {
+    "id": "670973a990dea39218eafe13",
+    "title": "Envio de recordatorios proactivos en plataforma",
+    "description": "caso comerrsa",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En progreso",
+    "createdAt": "2024-10-11T18:51:21.124Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-10-11T18:51:21.124Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-10-11T18:51:21.124Z"
+      }
+    ]
+  },
+  {
+    "id": "66edc50fd67d2d4421f8666f",
+    "title": "Crear recordatorios previos o post a la tarea",
+    "description": "Crear recordatorios previos o post a la tarea",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-20T18:55:11.835Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-20T18:55:11.835Z"
+      }
+    ]
+  },
+  {
+    "id": "66ec74a1ac7bf9412b388d56",
+    "title": "Inicio de tareas solo si estoy en la geocerca",
+    "description": "Inicio de tareas solo si estoy en la geocerca",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [
+      "Must have"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-19T18:59:45.134Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-19T18:59:45.134Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-19T18:59:45.134Z"
+      }
+    ]
+  },
+  {
+    "id": "66ec73d4ac7bf9412b3793f8",
+    "title": "Delego color blanco",
+    "description": "poder definir como opcion que toda la plataforma esté en blanco",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Must have"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-19T18:56:20.736Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-19T18:56:20.736Z"
+      }
+    ]
+  },
+  {
+    "id": "66eb24b4e2f56555b671eddc",
+    "title": "Edición de recurrencias masivas",
+    "description": "Edición de recurrencias masivas",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-18T19:06:28.103Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-18T19:06:28.103Z"
+      }
+    ]
+  },
+  {
+    "id": "66e9a5438b732373cf9290cf",
+    "title": "Botones del web invertidos",
+    "description": "una pregunta en mobile tipicamente los botones de confirmar o rechazar estan en que orden? a la izquierda quien y a la derecha quien? es que tengo la sensacion de que en el app estan invertidos o no?\n\nChatGPT said:\n\nEn aplicaciones móviles, el orden típico de los botones de confirmación y rechazo sigue ciertas convenciones de diseño de interfaces:\n\nBotón de confirmación (Sí/Aceptar/Submit): Generalmente se coloca a la derecha.\n\nBotón de rechazo (No/Cancelar): Usualmente se coloca a la izquierda.\n\nEste patrón es común porque la mayoría de los usuarios son diestros y, en muchos idiomas como el inglés y el español, la lectura se realiza de izquierda a derecha. Colocar la opción de confirmar (que es la acción más común) a la derecha facilita el flujo natural de interacción.\n\nEn el caso de la imagen que compartiste, parece que los botones están correctamente alineados:\n\n\"No\" (rechazar/cancelar) está a la izquierda.\n\n\"Yes\" (confirmar) está a la derecha.\n\nAsí que, siguiendo las convenciones de diseño, el orden es correcto. Si sientes que los usuarios tienen confusión, podrías considerar hacer ajustes de color o tamaño para resaltar más claramente el botón de acción principal (como hacer el botón de confirmación más prominente).\n\nYou said:\n\ny en las plataformas web este estandar tambien es correcto?\n\nChatGPT said:\n\nSí, el estándar de colocar el botón de confirmación a la derecha y el botón de rechazo a la izquierda también es correcto para plataformas web. Esta convención sigue las mismas pautas de usabilidad que en aplicaciones móviles, basándose en el patrón de lectura de izquierda a derecha y la posición natural de los controles para la mayoría de los usuarios.\n\nRazones para mantener este orden en plataformas web:\n\nConsistencia en la experiencia de usuario: Mantener el mismo orden en móviles y plataformas web evita confusión, ya que los usuarios se acostumbran a interactuar con los botones en un orden predecible.\n\nPatrón de flujo natural: Como mencioné antes, el flujo de lectura y acciones sigue el patrón de izquierda a derecha. Los usuarios tienden a leer la opción de cancelación primero y luego, de manera natural, esperan la opción de confirmación a la derecha.\n\nMejores prácticas de UX/UI: Los principios de diseño de interfaces, como los sugeridos por Google Material Design o Apple Human Interface Guidelines, recomiendan este mismo orden para todas las plataformas (móviles y web) para mantener consistencia y facilitar el uso.\n\nEn resumen, este orden (rechazo a la izquierda y confirmación a la derecha) es un estándar tanto en aplicaciones móviles como en plataformas web, y mantenerlo ayuda a una experiencia de usuario más intuitiva y fluida.",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-17T15:50:27.170Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-17T15:50:27.170Z"
+      }
+    ]
+  },
+  {
+    "id": "66e99e87d3ca368acf797982",
+    "title": "Tiempos para desasignar una tarea",
+    "description": "las tareas crecen y crecen y crecen, en cuanto tiempo una tarea debe ser desasignada y en cuanto eliminada?",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [
+      "Producto"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-17T15:21:43.405Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-17T15:21:43.405Z"
+      }
+    ]
+  },
+  {
+    "id": "66e8ecb99f5829dc893213b7",
+    "title": "Buscadores en el mobile",
+    "description": "para preguntas de listado",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-17T02:43:05.391Z",
+    "votes": []
+  },
+  {
+    "id": "66e8ec0bdb6cbcf7999c302f",
+    "title": "Agregar filtros avanzados de tarea: Clientes, type task, agentes",
+    "description": "Agregar filtros avanzados de tarea: Clientes, type task, agentes",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-17T02:40:11.970Z",
+    "votes": []
+  },
+  {
+    "id": "66e8b5d691402eae41fe10fb",
+    "title": "Envío de notificaciones por WS a multiples telefonos",
+    "description": "Envío de notificaciones por WS a multiples telefonos",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [
+      "Clients"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-16T22:48:54.559Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-16T22:48:54.559Z"
+      }
+    ]
+  },
+  {
+    "id": "66e8b3d3dc0c53bcf9c9b87b",
+    "title": "Agregar fotos/ imágenes en campos personalizados",
+    "description": "Agregar fotos/ imágenes en campos personalizados",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-16T22:40:19.907Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-16T22:40:19.907Z"
+      }
+    ]
+  },
+  {
+    "id": "66e89a2b19e04e2704b77304",
+    "title": "Eliminar masivamente clientes",
+    "description": "Eliminar masivamente clientes",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-16T20:50:51.223Z",
+    "votes": []
+  },
+  {
+    "id": "66e45206c0b40f2a70eee010",
+    "title": "Campos de texto grandes desde el mobile",
+    "description": "Campos de texto grandes desde el mobile",
+    "customer": "Cristhie Diaz",
+    "category": "Otro",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-13T14:53:58.563Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-13T14:53:58.563Z"
+      }
+    ]
+  },
+  {
+    "id": "66e32939f500417c55f12816",
+    "title": "Información del km desde la ultima tarea al hub",
+    "description": "Información del km desde la ultima tarea al hub",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Flujos incompletos",
+      "Must have"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-12T17:47:37.103Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-12T17:47:37.103Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66e3281fef6cabcd7e9a1ab6",
+    "title": "Maestro de Vehículos",
+    "description": "Maestro de Vehículos",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Easy Design",
+      "Must have"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-12T17:42:55.017Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-12T17:42:55.017Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-12T17:42:55.017Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66e1a20484a19701fc4fa3ae",
+    "title": "No poder desasignar desde el aplicativo movil",
+    "description": "La funcionalidad bloqueará la capacidad de desasignar tareas desde el aplicativo móvil, asegurando que los agentes de campo no puedan quitarse tareas asignadas una vez que están en curso. Esta restricción garantizará que las tareas asignadas desde la plataforma web solo puedan ser modificadas o desasignadas por los gestores desde la interfaz central, manteniendo un control más riguroso sobre la asignación y ejecución de tareas. Esto evitará la posibilidad de que agentes eliminen tareas de manera inadvertida o sin autorización, asegurando que todas las operaciones sigan el flujo planificado desde la gestión centralizada.",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "Easy Design",
+      "Must have"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-11T13:58:28.282Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:58:28.282Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-11T13:58:28.282Z"
+      }
+    ]
+  },
+  {
+    "id": "66e1a05e8dfb461a4c6fc096",
+    "title": "Buscador en el calendario",
+    "description": "Buscador en el calendario",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Producto"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:51:26.461Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:51:26.461Z"
+      }
+    ],
+    "subcategory": "Filtros"
+  },
+  {
+    "id": "66e19ff15d96da4adafbbe8d",
+    "title": "Agentes y tareas de prueba",
+    "description": "Para el onboarding y que se borren a la hora de completarse",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Producto"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:49:37.177Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:49:37.177Z"
+      }
+    ]
+  },
+  {
+    "id": "66e19fc184a19701fc4cd4f1",
+    "title": "Rutas de solo pickup",
+    "description": "Rutas de solo pickup",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:48:49.971Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:48:49.971Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66e19f85257259dbb1f1b6f6",
+    "title": "Cambio de Pick up/Cliente a Origen/Destino",
+    "description": "Modificación de las etiquetas estándar de \"Pick up\" y \"Cliente\" para adaptarse mejor a diferentes flujos operativos, utilizando las etiquetas \"Origen\" y \"Destino\".",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:47:49.805Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:47:49.805Z"
+      }
+    ]
+  },
+  {
+    "id": "66e19e7ccf26cb7b9d7b42f6",
+    "title": "Agregar mapa a la ventana de clientes",
+    "description": "para poder visualizar las coordenadas de ejecución y planificación\n\nLa funcionalidad permitirá agregar un mapa a la ventana de clientes, facilitando la visualización geográfica de la ubicación de cada cliente dentro de la plataforma Delego. El mapa mostrará la dirección registrada de cada cliente, lo que permitirá a los gestores y agentes de campo ver su posición exacta. Además, será posible interactuar con el mapa para realizar ajustes en la ubicación del cliente o visualizar puntos de entrega cercanos. Esta integración mejorará la experiencia de usuario al proporcionar un contexto geográfico más claro para la gestión de clientes y sus ubicaciones.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:43:24.812Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:43:24.812Z"
+      }
+    ]
+  },
+  {
+    "id": "66e19d18ac4de409f431acb9",
+    "title": "Creación de notificaciones configurables por type task",
+    "description": "Creación de notificaciones configurables por type task",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "20",
+      "Mejora usabilidad",
+      "Must have"
+    ],
+    "status": "En progreso",
+    "createdAt": "2024-09-11T13:37:28.639Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:37:28.639Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-11T13:37:28.639Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-11T13:37:28.639Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-11T13:37:28.639Z"
+      }
+    ]
+  },
+  {
+    "id": "66e19cd9df962618ab238290",
+    "title": "Eliminar agentes",
+    "description": "La opción de eliminar agentes de la plataforma de manera rápida y segura. Esta funcionalidad permitirá a los gestores desactivar o borrar permanentemente los perfiles de agentes que ya no formen parte de las operaciones de campo, asegurando que los datos históricos se mantengan intactos para fines de auditoría o revisión. Los gestores podrán seleccionar uno o varios agentes para su eliminación, garantizando un control adecuado sobre los recursos activos en la plataforma. Esta funcionalidad incluirá confirmaciones de seguridad para evitar eliminaciones accidentales.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "5"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:36:25.047Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:36:25.047Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-11T13:36:25.047Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66e19baa88e56eb804c6c147",
+    "title": "Carga masiva de zonas",
+    "description": "La funcionalidad permitirá la carga masiva de zonas en Delego, agilizando la creación y gestión de áreas geográficas dentro de la plataforma. Los usuarios podrán subir archivos CSV o Excel que contengan los límites geográficos, nombres y otras características de las zonas, lo que reducirá significativamente el tiempo necesario para agregar cada zona manualmente. Esta funcionalidad será útil para definir áreas de entrega, zonas de servicio o áreas de trabajo específicas de manera eficiente y precisa. Además, las zonas cargadas estarán disponibles para ser asociadas a rutas, clientes o tareas, optimizando la planificación operativa y la segmentación geográfica de las actividades.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:31:22.876Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:31:22.876Z"
+      }
+    ]
+  },
+  {
+    "id": "66e19b7ce6c270d6cc52e676",
+    "title": "Auto-Asignación basadas en Skills",
+    "description": "La funcionalidad permitirá la autoasignación basada en habilidades (skills) dentro de Delego, optimizando la asignación de tareas según las competencias específicas de los agentes de campo. El sistema evaluará las habilidades de cada agente (caga pesada, refrigerados, tecnico) y automáticamente asignará las tareas más adecuadas a cada uno. Esto garantizará que las tareas sean ejecutadas por el personal más capacitado, mejorando la eficiencia y reduciendo errores. Los gestores podrán definir y actualizar las habilidades de los agentes en la plataforma, asegurando que las asignaciones se ajusten a las necesidades operativas en tiempo real",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Must have"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-11T13:30:36.686Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:30:36.686Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-11T13:30:36.686Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66e19b344d66a31a41fe2799",
+    "title": "Links de entrenamiento desde el mobile",
+    "description": "Links de entrenamiento desde el mobile",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:29:24.208Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:29:24.208Z"
+      }
+    ]
+  },
+  {
+    "id": "66e1980d134439a97e107367",
+    "title": "Edición de tareas completadas desde el mobile",
+    "description": "La funcionalidad permitirá la edición de tareas completadas directamente desde la aplicación móvil. Esto ofrecerá a los agentes de campo la capacidad de modificar ciertos detalles de las visitas ya marcadas como completadas, permitiendo corregir errores o añadir información relevante que no se registró inicialmente.",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "10",
+      "Easy Design",
+      "Must have"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:15:57.017Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:15:57.017Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-11T13:15:57.017Z"
+      }
+    ]
+  },
+  {
+    "id": "66e197c4eb0b13bc088cdc5c",
+    "title": "Imágenes en los forms",
+    "description": "capacidad de visualizar las imagenes en las preguntas de listado/seleccion de los forms",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:14:44.997Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:14:44.997Z"
+      }
+    ]
+  },
+  {
+    "id": "66e1975100852096ed50ddb6",
+    "title": "Agregar capas de información",
+    "description": "Capa de clientes, tematicos entre otros",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "15",
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:12:49.202Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:12:49.202Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-11T13:12:49.202Z"
+      }
+    ],
+    "subcategory": "Dashboard"
+  },
+  {
+    "id": "66e196deac4de409f42676fc",
+    "title": "Delego como marca blanca",
+    "description": "para las telcos",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:10:54.680Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:10:54.680Z"
+      }
+    ]
+  },
+  {
+    "id": "66e196b48bfdd3ecfad6fa52",
+    "title": "Asignación de tareas por drag&drop",
+    "description": "Asignación de tareas por drag&drop",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T13:10:12.559Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T13:10:12.559Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66e10852bf6614db2ce92b44",
+    "title": "Cierre automático de la tarea por cercanía \"Navixy Check in\"",
+    "description": "Esta funcionalidad permitirá que las tareas se marquen como completadas automáticamente cuando un agente de campo permanezca en una ubicación asignada durante más de 5 minutos, sin necesidad de intervención manual. El sistema detectará la proximidad del agente al punto de destino a través del GPS y, tras cumplir con el tiempo estipulado, completará la tarea de forma automática. Esto asegurará un mayor control en la ejecución de tareas y reducirá errores derivados del cierre manual de las mismas, optimizando la eficiencia operativa.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "15"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T03:02:42.626Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T03:02:42.626Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-11T03:02:42.626Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66e1080819b02cd222eebc18",
+    "title": "Visualización de Indicadores desde el mobile",
+    "description": "La funcionalidad permitirá la visualización de indicadores clave directamente desde la aplicación móvil, brindando a los agentes y gestores acceso en tiempo real a métricas operativas esenciales. Los usuarios podrán consultar indicadores como el rendimiento de las rutas, el estado de las entregas, los tiempos de ejecución, y otros KPIs",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-11T03:01:28.662Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T03:01:28.662Z"
+      }
+    ]
+  },
+  {
+    "id": "66e105d25d96da4ada4de23f",
+    "title": "QR Code por notificaciones para doble confirmación",
+    "description": "La funcionalidad permitirá el uso de códigos QR en las notificaciones para implementar una capa adicional de seguridad mediante doble confirmación. Cuando se complete una tarea o entrega, se enviará una notificación al destinatario con un código QR único. El destinatario, al escanear el código con la aplicación móvil, podrá confirmar la recepción del servicio o producto de manera segura. Esta doble confirmación garantizará la autenticidad de las entregas, mejorando la trazabilidad y evitando errores o fraudes. Los gestores podrán monitorear en tiempo real qué tareas han sido confirmadas mediante esta validación adicional, asegurando un control más riguroso de las operaciones.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T02:52:02.679Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T02:52:02.679Z"
+      }
+    ]
+  },
+  {
+    "id": "66e103504d66a31a41298bab",
+    "title": "Capacidad de pertenecer a 2 Tenant",
+    "description": "para usuarios web y mobiles",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T02:41:20.112Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T02:41:20.112Z"
+      }
+    ]
+  },
+  {
+    "id": "66e1032727380ed32255a8d1",
+    "title": "Capacidad de definir el tiempo de delayed de la tarea",
+    "description": "Capacidad de definir el tiempo de delayed de la tarea",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T02:40:39.006Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-11T02:40:39.006Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66e101884d66a31a4126b9cb",
+    "title": "Agregar Filtros en las pantallas de Hubs, Agentes y Clientes",
+    "description": "Agregar Filtros en las pantallas de Hubs, Agentes y Clientes",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-11T02:33:44.626Z",
+    "votes": [],
+    "subcategory": "Filtros"
+  },
+  {
+    "id": "66e0942c0657259c2278468b",
+    "title": "Delego Billing",
+    "description": "Delego Billing",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Producto"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T18:47:08.674Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T18:47:08.674Z"
+      }
+    ]
+  },
+  {
+    "id": "66e0930f0657259c2276dc77",
+    "title": "Diagrama de avance de ejecución",
+    "description": "Estilo Bringg / Beetrack / Drivinn\n\nLa funcionalidad permitirá generar un diagrama de avance de rutas que muestre visualmente el progreso de cada ruta asignada a los agentes de campo. Este diagrama mostrará el estado actual de las rutas en tiempo real, destacando puntos clave como las paradas completadas, las pendientes y el tiempo estimado de finalización. Los gestores podrán visualizar fácilmente el porcentaje de avance de cada ruta, lo que facilitará la toma de decisiones y la optimización de las operaciones. Además, el diagrama incluirá detalles sobre retrasos, desvíos o problemas detectados, lo que permitirá una gestión más proactiva de las rutas.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "10",
+      "Mejora usabilidad"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T18:42:23.517Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T18:42:23.517Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T18:42:23.517Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66e091b70657259c2274a6dd",
+    "title": "Agregar zoom secciones de mapa y demas configuraciones a los custom views",
+    "description": "Agregar zoom secciones de mapa y demas configuraciones a los custom views",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T18:36:39.864Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T18:36:39.864Z"
+      }
+    ]
+  },
+  {
+    "id": "66e090964399807e3db21765",
+    "title": "Agregar un temático de tareas ejecutada por agente",
+    "description": "Agregar un temático de tareas ejecutada por agente",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Demo"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T18:31:50.833Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T18:31:50.833Z"
+      }
+    ],
+    "subcategory": "Dashboard"
+  },
+  {
+    "id": "66e0906f74e4f6bac39bb5fe",
+    "title": "Visualizar en el mapa el punto de planificación vs ejecución",
+    "description": "Poder unir las lineas entre lo ejecutado y lo planificado",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Demo"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T18:31:11.836Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T18:31:11.836Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T18:31:11.836Z"
+      }
+    ],
+    "subcategory": "Dashboard"
+  },
+  {
+    "id": "66e08e54eef80107844c3b62",
+    "title": "Integración a Shopify",
+    "description": "Integración a Shopify",
+    "customer": "Cristhie Diaz",
+    "category": "Integraciones",
+    "tags": [
+      "Demo"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T18:22:12.038Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T18:22:12.038Z"
+      }
+    ]
+  },
+  {
+    "id": "66e073e4842a2cf09e119520",
+    "title": "Creación de tiempo de servicio IA",
+    "description": "Creación de tiempo de servicio IA",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T16:29:24.380Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T16:29:24.380Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T16:29:24.380Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66e073c20ae168530e16b88d",
+    "title": "Creación de Rutas desde el mapa",
+    "description": "La funcionalidad permitirá crear rutas directamente desde el mapa en Delego, facilitando la planificación visual y geográfica de los trayectos. Los usuarios podrán seleccionar puntos en el mapa para establecer ubicaciones de origen, destino y paradas intermedias, optimizando así la ruta en tiempo real. Esta herramienta permitirá arrastrar y soltar puntos en el mapa para ajustar el recorrido de manera intuitiva, generando rutas que se adapten a las condiciones del terreno y los tiempos estimados de entrega. Además, los gestores podrán visualizar rutas ya existentes y hacer modificaciones directamente en el mapa para mejorar la eficiencia operativa.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "25"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T16:28:50.233Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T16:28:50.233Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T16:28:50.233Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66e071ddeb8547165f3ca528",
+    "title": "Notificaciones por mensaje de texto",
+    "description": "Notificaciones por mensaje de texto",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T16:20:45.362Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T16:20:45.362Z"
+      }
+    ]
+  },
+  {
+    "id": "66e06bd2e611baa6c77dc119",
+    "title": "Capacidades para Recolecta y no para entrega",
+    "description": "Capacidades para Recolecta y no para entrega",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:54:58.275Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:54:58.275Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66e06a5dd967335d0acc6093",
+    "title": "Opción de color blanco de la plataforma",
+    "description": "Esta funcionalidad permite a los usuarios de Delego personalizar la apariencia del mapa dentro de la plataforma, eligiendo entre una vista de tema claro o tema oscuro. Esta opción está diseñada para mejorar la visibilidad y comodidad durante el uso en diferentes entornos de trabajo, como entornos luminosos o con poca luz. Los usuarios podrán cambiar fácilmente el tema del mapa desde el menú de configuración, adaptando la interfaz a sus necesidades y preferencias visuales.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "25",
+      "Must have",
+      "Req Crítico de Cliente"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:48:45.337Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:48:45.337Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T15:48:45.337Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-10T15:48:45.337Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-10T15:48:45.337Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2024-09-10T15:48:45.337Z"
+      },
+      {
+        "customer": "Cliente 6",
+        "votedAt": "2024-09-10T15:48:45.337Z"
+      }
+    ]
+  },
+  {
+    "id": "66e069e182dd107facf8dd32",
+    "title": "Incorporación del mapa satelital",
+    "description": "Incorporación del mapa satelital",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Clients",
+      "Quick Win!"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:46:41.471Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:46:41.471Z"
+      }
+    ],
+    "subcategory": "Dashboard"
+  },
+  {
+    "id": "66e069af3d9d9a7751d801e2",
+    "title": "Reporte Online/offline",
+    "description": "Para verificación del cumplimiento de la jornada laboral",
+    "customer": "Cristhie Diaz",
+    "category": "Reportes",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:45:51.679Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:45:51.679Z"
+      }
+    ]
+  },
+  {
+    "id": "66e06905eef80107841dc4db",
+    "title": "Integración proveedores de facturación",
+    "description": "La funcionalidad permitirá la integración con proveedores de facturación externos en Delego, facilitando la automatización y gestión de los procesos de facturación. Los usuarios podrán vincular el sistema con servicios de facturación de terceros para generar, enviar y registrar facturas automáticamente basadas en las tareas completadas, los tiempos de ejecución y otros criterios operativos. Esta integración asegurará que las facturas sean precisas y generadas en tiempo real, evitando errores manuales y reduciendo el tiempo necesario para completar el proceso de facturación. Además, permitirá la sincronización con plataformas de contabilidad para garantizar un flujo de trabajo eficiente y centralizado.",
+    "customer": "Cristhie Diaz",
+    "category": "Integraciones",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:43:01.701Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:43:01.701Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T15:43:01.701Z"
+      }
+    ]
+  },
+  {
+    "id": "66e0680423484c8ceced907d",
+    "title": "Agregar buscador en los resultados de reporte",
+    "description": "Agregar buscador en los resultados de reporte",
+    "customer": "Cristhie Diaz",
+    "category": "Reportes",
+    "tags": [
+      "Clients"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-10T15:38:44.628Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:38:44.628Z"
+      }
+    ]
+  },
+  {
+    "id": "66e067807ad7902fcd99d608",
+    "title": "Botón de Home que te lleve a la ubicación actual",
+    "description": "hola Cris, no sé si puedas considerar esto en backlog o si de repente ya existe, algún botoncito en la pantalla de operaciones como este de geotab, que cuando le das te lleve directamente en el mapa a tu ubicación, o quizás algo que te permita seleccionar una hub y te centre el mapa alli en esa dirección del hub.\n\nesto principalmente porque Tenaris, me dijo hoy “che Jennifer sabés que el mapa siempre me coloca en buenos aires y es tedioso bajar zoom y bajar manualmente hasta el sur de Argentina donde está mi operación”",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "5",
+      "Demo"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:36:32.600Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:36:32.600Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T15:36:32.600Z"
+      }
+    ],
+    "subcategory": "Dashboard"
+  },
+  {
+    "id": "66e066e882dd107facf57097",
+    "title": "Editar nombre y campos una vez completada la tarea",
+    "description": "La funcionalidad permitirá editar el título y los campos de una tarea incluso después de que haya sido completada. Esto dará flexibilidad a los usuarios para realizar ajustes o correcciones en la información registrada, como cambiar el nombre de la tarea o modificar detalles en los campos de datos ingresados. Esta capacidad garantizará que cualquier error o información faltante pueda ser corregido sin necesidad de recrear la tarea, manteniendo así la integridad del historial y el registro de la operación. La edición estará sujeta a permisos específicos para evitar modificaciones no autorizadas.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "5",
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:34:00.502Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:34:00.502Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T15:34:00.502Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66e066519e19f639e8bd7ed8",
+    "title": "Agregar campos de ID Vehiculo y equipo en el reporte",
+    "description": "mié, 29 may 2024 a las 13:51, AWS Notifications (<no-reply@sns.amazonaws.com>) escribió:\n\nNombre del cliente: Hector Martinez\n\nEmail del cliente: computo@grupometales.com\n\nMensaje:\n\nAgradecería mucho si características como \n\nID_VEHICULO\n\nEQUIPO\n\nAparezcan en los reportes... sirven mucha ayuda pra determinar el vehiculo usado si el agente usa mas de uno entre semana, por daño o capacidad y el equipo, bueno, esta en la tarea y en el agente, pero no sale en el reporte. No solo esos datos creo que deben dar cabida a mas datos para personalizar los reportes de resultados... y que se estan llenando el proceso pero que al final no aparecen en los reportes para mostrarlos\n\ny que aportan en los complementos hacia otros sistemas.\n\nDe antemano agradezco validen esta sugerencia.,\n\n--",
+    "customer": "Cristhie Diaz",
+    "category": "Reportes",
+    "tags": [
+      "Clients",
+      "Quick Win!"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:31:29.565Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:31:29.565Z"
+      }
+    ]
+  },
+  {
+    "id": "66e062aef5f262e14160b3b5",
+    "title": "Eliminar tareas completadas",
+    "description": "Eliminar tareas completadas",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T15:15:58.215Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T15:15:58.215Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66e05e26d439808a3919b7ba",
+    "title": "Presionar el teléfono desde el mobile",
+    "description": "Posibilidad de que en la versión que utilizan los choferes puedan oprimir el número de teléfono del afiliado y que comience a procesar la llamada?",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "5",
+      "Clients",
+      "Quick Win!"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T14:56:38.734Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T14:56:38.734Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T14:56:38.734Z"
+      }
+    ]
+  },
+  {
+    "id": "66e0571a42423afc983a63a4",
+    "title": "Notificaciones desde el dominio del cliente",
+    "description": "Notificaciones desde el dominio del cliente",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T14:26:34.482Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T14:26:34.482Z"
+      }
+    ]
+  },
+  {
+    "id": "66e054ca0b82f3090aed5d18",
+    "title": "Asociar agentes/items/type tasks en el form",
+    "description": "La funcionalidad permitirá asociar agentes, ítems y tipos de tareas directamente a los formularios personalizados en Delego. Esto facilitará que los agentes de campo puedan registrar información específica sin necesidad de ingresar manualmente los datos en cada formulario. Los formularios estarán conectados a las dependencias del sistema, lo que permitirá seleccionar agentes, ítems o tipos de tareas predefinidos desde una lista desplegable, asegurando coherencia y precisión en los datos capturados. Esta integración automatizará el proceso de registro y mejorará la eficiencia al eliminar la necesidad de ingresar información redundante o propensa a errores manuales.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "15",
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T14:16:42.977Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T14:16:42.977Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T14:16:42.977Z"
+      }
+    ],
+    "subcategory": "Formularios"
+  },
+  {
+    "id": "66e05146d806a256a8e5c84f",
+    "title": "Integración con otros apps mobiles",
+    "description": "para hacer la ejecución desde otros aplicativos",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T14:01:42.297Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T14:01:42.297Z"
+      }
+    ]
+  },
+  {
+    "id": "66e0510c46d6acdfbcd633f3",
+    "title": "Ver ruta en el app",
+    "description": "Ver ruta en el app",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T14:00:44.701Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T14:00:44.701Z"
+      }
+    ]
+  },
+  {
+    "id": "66e05036629a0e1d983ef458",
+    "title": "Mobile ETA",
+    "description": "Mobile ETA",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:57:10.743Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:57:10.743Z"
+      }
+    ]
+  },
+  {
+    "id": "66e050006109f0d7c12ba08c",
+    "title": "Planificación de rutas automática",
+    "description": "Esta funcionalidad permite a los usuarios de Delego automatizar la programación de rutas para sus operaciones diarias. Los usuarios pueden configurar rutas predeterminadas que se ejecutan automáticamente a una hora específica cada día. Esto elimina la necesidad de programar manualmente las rutas cada jornada, asegurando que el sistema asignará y optimizará las rutas a tiempo, de manera eficiente y sin intervención adicional. Los gestores pueden definir la hora de inicio de las rutas y ajustar las configuraciones según las necesidades de la operación, lo que asegura que las rutas se adapten a las condiciones cambiantes de manera dinámica y sin interrupciones.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "20",
+      "Funcionalidad nueva"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:56:16.804Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:56:16.804Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T13:56:16.804Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-10T13:56:16.804Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-10T13:56:16.804Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66e04fcb0afcc3b093c5adec",
+    "title": "Items dentro de las notificaciones por correo",
+    "description": "Items dentro de las notificaciones por correo",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:55:23.966Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:55:23.966Z"
+      }
+    ]
+  },
+  {
+    "id": "66e04f953594fefb2ee8406a",
+    "title": "Registrar Satisfacción del cliente",
+    "description": "una pagina web",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:54:29.090Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:54:29.090Z"
+      }
+    ]
+  },
+  {
+    "id": "66e04f33fcc957f42c2b648d",
+    "title": "Notificación por correo/whatsaap por equipos",
+    "description": "Notificación por correo/whatsaap por equipos",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:52:51.718Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:52:51.718Z"
+      }
+    ]
+  },
+  {
+    "id": "66e04e489848a4f934da2b8c",
+    "title": "Poder listar los items que no se entregan en una entrega parcial",
+    "description": "La funcionalidad permitirá a los agentes de campo seleccionar los ítems que no se han entregado en una entrega parcial directamente desde la aplicación móvil. Durante el proceso de registro de la entrega, el agente podrá marcar los artículos que no fueron entregados, seleccionándolos de una lista de ítems asignados. Esto facilitará una descripción precisa de los productos pendientes y permitirá registrar los motivos o detalles adicionales, como falta de inventario o rechazo por parte del cliente. Esta información será sincronizada automáticamente con la plataforma para que los gestores puedan visualizar los artículos no entregados y tomar acciones correctivas en tiempo real.",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "20"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:48:56.331Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:48:56.331Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T13:48:56.331Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-10T13:48:56.331Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-10T13:48:56.331Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2024-09-10T13:48:56.331Z"
+      }
+    ]
+  },
+  {
+    "id": "66e04a8ad1ef20df5c958fa9",
+    "title": "Chat para conversar con los usuarios",
+    "description": "La funcionalidad permitirá la integración de un chat para que los usuarios puedan comunicarse directamente dentro de la plataforma Delego. Este chat servirá como un canal de comunicación en tiempo real, facilitando la conversación entre los gestores y los agentes de campo o incluso entre diferentes miembros del equipo de trabajo. Los usuarios podrán enviar mensajes instantáneos para resolver dudas, coordinar tareas o brindar actualizaciones sobre el progreso de las rutas y tareas asignadas.\n\nAdemás, el chat podrá estar vinculado a tareas o entregas específicas, permitiendo a los usuarios acceder al historial de conversaciones relacionadas con una operación particular. Esto mejorará la colaboración, reducirá los tiempos de respuesta y asegurará que toda la información relevante esté centralizada en un solo lugar.",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "25"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:32:58.491Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:32:58.491Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T13:32:58.491Z"
+      }
+    ]
+  },
+  {
+    "id": "66e04a36943c5290940b92d2",
+    "title": "Integración con Google Looker",
+    "description": "para ver sus estadísticas",
+    "customer": "Cristhie Diaz",
+    "category": "Integraciones",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:31:34.835Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:31:34.835Z"
+      }
+    ]
+  },
+  {
+    "id": "66e0485881ad01b21fe388fb",
+    "title": "Notificaciones con ETA basado en el tráfico en tiempo real",
+    "description": "La funcionalidad permitirá enviar notificaciones con la hora estimada de llegada (ETA) basada en el tráfico en tiempo real. A medida que los agentes de campo se desplacen hacia su destino, el sistema calculará automáticamente la ETA considerando las condiciones actuales del tráfico, como congestiones, accidentes o desvíos. Estas notificaciones se enviarán a los destinatarios clave, como clientes o gestores, proporcionando actualizaciones precisas sobre el tiempo de llegada esperado. Esto mejorará la transparencia en las entregas y permitirá ajustar las expectativas en tiempo real, garantizando una mejor planificación y gestión de las operaciones en campo.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "15",
+      "Funcionalidad nueva"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:23:36.041Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:23:36.041Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T13:23:36.041Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-10T13:23:36.041Z"
+      }
+    ]
+  },
+  {
+    "id": "66e0479f46d6acdfbccd0d09",
+    "title": "Geocercas de entrada y salida del agente de una zona",
+    "description": "Esta funcionalidad permite configurar geocercas para áreas específicas, activando alertas automáticas cuando un agente de campo entra o sale de una zona definida. Al utilizar esta herramienta, el sistema detecta la ubicación del agente en tiempo real y genera registros automáticos de entrada y salida del área. Esto permite un seguimiento más preciso de la actividad del equipo, mejorando el control de tiempos y la gestión de las operaciones en campo. Las geocercas se pueden configurar fácilmente desde la plataforma web y deben ser visibles tanto para los gestores como para los agentes en sus dispositivos móviles.\n\n(Puede ser un hub o una zona específica que el cliente quiera registrar o del cliente X)",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "20",
+      "Funcionalidad nueva"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:20:31.832Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:20:31.832Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T13:20:31.832Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-10T13:20:31.832Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-10T13:20:31.832Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2024-09-10T13:20:31.832Z"
+      }
+    ]
+  },
+  {
+    "id": "66e04716d79ec8d758782961",
+    "title": "Autoasignaciones basada en la carga de trabajo",
+    "description": "Autoasignaciones basada en la carga de trabajo",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:18:14.710Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:18:14.710Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66e04650680420bcb6ecf66c",
+    "title": "Geocodificar por codigo postal",
+    "description": "Geocodificar por codigo postal",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-10T13:14:56.359Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:14:56.359Z"
+      }
+    ]
+  },
+  {
+    "id": "66e046360b82f3090adbca47",
+    "title": "Enviar y Exportar reportes en PDF",
+    "description": "Con esta funcionalidad, los usuarios de Delego pueden generar y exportar reportes detallados en formato PDF de manera sencilla. Estos reportes incluyen información clave sobre las operaciones, el rendimiento de las rutas, el cumplimiento de tareas y otras métricas configuradas por el usuario. Una vez generado, el reporte puede ser enviado automáticamente por correo electrónico a los destinatarios deseados o descargado directamente desde la plataforma. Esta herramienta permite a los gestores compartir fácilmente el estado de las operaciones y mantener un registro accesible y formal de los datos más importantes para la toma de decisiones.",
+    "customer": "Cristhie Diaz",
+    "category": "Reportes",
+    "tags": [
+      "Easy Design",
+      "Must have"
+    ],
+    "status": "En progreso",
+    "createdAt": "2024-09-10T13:14:30.531Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-10T13:14:30.531Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-10T13:14:30.531Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-10T13:14:30.531Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-10T13:14:30.531Z"
+      }
+    ]
+  },
+  {
+    "id": "66df125213245d9a35fe50d9",
+    "title": "Múltiples tareas abiertas en el mobile",
+    "description": "La funcionalidad permitirá a los agentes de campo gestionar múltiples tareas abiertas simultáneamente desde la aplicación móvil. Esto ofrecerá la flexibilidad de trabajar en varias tareas de manera paralela, sin necesidad de cerrar una para comenzar otra. Los agentes podrán alternar entre diferentes tareas abiertas, lo que resulta útil cuando se deben realizar múltiples entregas, visitas o gestiones en una misma jornada. Cada tarea mantendrá su estado y progreso, permitiendo a los usuarios actualizar o completar cada una según sea necesario. Esta capacidad mejorará la eficiencia y el manejo de tareas complejas o que requieren atención en diferentes momentos del día.",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "Must have"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-09T15:20:50.125Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-09T15:20:50.125Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-09T15:20:50.125Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-09T15:20:50.125Z"
+      }
+    ]
+  },
+  {
+    "id": "66dddb30f5b1b398a454e98f",
+    "title": "Rutas con jornadas de varios días",
+    "description": "La funcionalidad permitirá la creación y gestión de rutas con jornadas de varios días dentro de Delego, diseñadas para operaciones de largo plazo que requieren planificación en múltiples etapas. Los usuarios podrán configurar rutas que incluyan varios días de trabajo, con paradas programadas, puntos de descanso, y entregas a lo largo del trayecto. Esto será especialmente útil para rutas nacionales o interurbanas, donde las entregas se realizan en diferentes ubicaciones antes de alcanzar el destino final.\n\nLos gestores podrán asignar agentes a cada jornada y configurar las tareas diarias, asegurando un control total sobre el progreso de la ruta. Además, la funcionalidad permitirá el seguimiento del estado de cada etapa, asegurando que las entregas se cumplan dentro del plazo previsto y optimizando los recursos asignados para la operación.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "5",
+      "Mejora usabilidad"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-08T17:13:20.203Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-08T17:13:20.203Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-08T17:13:20.203Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-08T17:13:20.203Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66ddd7ac1a47ec0b3c5b171c",
+    "title": "Creación de tareas desde el mobile",
+    "description": "Delego permitirá a los agentes de campo registrar información directamente desde la aplicación móvil sin necesidad de una asignación previa desde la plataforma web. Esta funcionalidad permitirá a los agentes realizar tareas de manera autónoma, como la toma de pedidos, registro de nuevos clientes o cualquier otra actividad en campo, sin depender de que un operador los cree y les asigne la tarea previamente. Los datos registrados serán sincronizados automáticamente con la plataforma para mantener la trazabilidad y permitir que los gestores los visualicen y gestionen en tiempo real.",
+    "customer": "Cristhie Diaz",
+    "category": "Mobile",
+    "tags": [
+      "15",
+      "Req Crítico de Cliente"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-08T16:58:20.207Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      },
+      {
+        "customer": "Cliente 6",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      },
+      {
+        "customer": "Cliente 7",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      },
+      {
+        "customer": "Cliente 8",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      },
+      {
+        "customer": "Cliente 9",
+        "votedAt": "2024-09-08T16:58:20.207Z"
+      }
+    ]
+  },
+  {
+    "id": "66ddd7821a47ec0b3c5ae798",
+    "title": "Histórico de Tracking del agente",
+    "description": "Delego ofrecerá la posibilidad de consultar el histórico de tracking de los agentes de campo. Esta funcionalidad permitirá a los usuarios visualizar un registro detallado de los movimientos y ubicaciones de cada agente a lo largo del tiempo. Los gestores podrán acceder a un historial completo de las rutas recorridas, las zonas visitadas y los tiempos de permanencia en cada ubicación. Esta información será clave para realizar auditorías de operaciones, optimizar rutas y asegurar el cumplimiento de las tareas. Los reportes de tracking podrán ser exportados en formatos como Excel o PDF para facilitar su análisis y revisión.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "25",
+      "Funcionalidad nueva"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-08T16:57:38.322Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-08T16:57:38.322Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-08T16:57:38.322Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-08T16:57:38.322Z"
+      }
+    ]
+  },
+  {
+    "id": "66ddd76ae1d547410488755d",
+    "title": "Generación de etiquetas/ Integración sistema de etiquetas",
+    "description": "Generación de etiquetas/ Integración sistema de etiquetas",
+    "customer": "Cristhie Diaz",
+    "category": "Integraciones",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-08T16:57:14.014Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-08T16:57:14.014Z"
+      }
+    ]
+  },
+  {
+    "id": "66ddd7095b05ea8d3e532511",
+    "title": "Estatus personalizados",
+    "description": "La funcionalidad permitirá a los usuarios crear estatus personalizados para las tareas y operaciones dentro de Delego. En lugar de utilizar únicamente los estatus predeterminados (como \"En Transito\" o \"Completado\"), los gestores podrán definir nuevos estatus que se adapten mejor a sus procesos específicos. Estos estatus personalizados podrán reflejar fases o condiciones particulares de cada operación, permitiendo un control más detallado sobre el flujo de trabajo. Los usuarios podrán configurar los nombres y reglas asociadas a cada estatus, asegurando que las tareas y entregas sigan el flujo operativo exacto que requieren sus negocios.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Demo"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-08T16:55:37.643Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-08T16:55:37.643Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-08T16:55:37.643Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66ddd6f0a428bc74f7c83503",
+    "title": "Registro de devolución",
+    "description": "Registro de devolución",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-08T16:55:12.261Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-08T16:55:12.261Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66ddd6d3e95b9b0f7357649c",
+    "title": "Integración con dispositivos GPS",
+    "description": "Delego planea incorporar una integración con sistemas GPS para mejorar el seguimiento y monitoreo de las operaciones en campo. Esta funcionalidad permitirá obtener la ubicación precisa y en tiempo real de los agentes, lo que facilitará la planificación y optimización de rutas, así como el análisis de desplazamientos. Con la integración GPS, los gestores podrán visualizar el trayecto de los agentes directamente en el mapa de la plataforma y recibir alertas automáticas en caso de desvíos o tiempos prolongados en un lugar. Además, se almacenarán los datos históricos del GPS para auditorías y mejoras continuas de las operaciones. Esta integración proporcionará mayor precisión y control sobre los recursos en movimiento.",
+    "customer": "Cristhie Diaz",
+    "category": "Integraciones",
+    "tags": [
+      "10",
+      "Must have",
+      "Req Estratégico"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-08T16:54:43.094Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-08T16:54:43.094Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-08T16:54:43.094Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-08T16:54:43.094Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-08T16:54:43.094Z"
+      }
+    ]
+  },
+  {
+    "id": "66dcd122e95b9b0f7376522a",
+    "title": "Subir recurrencias desde la carga masiva",
+    "description": "Delego permitirá la capacidad de cargar masivamente tareas o rutas recurrentes a través de un archivo CSV o Excel, simplificando la programación de actividades repetitivas. Esta funcionalidad permitirá a los usuarios configurar las recurrencias de tareas automáticamente, definiendo la frecuencia (diaria, semanal, mensual, etc.) durante la carga masiva. Con esta herramienta, se reducirá el tiempo dedicado a la planificación manual de tareas recurrentes, permitiendo una automatización más eficiente de las operaciones en campo. Los gestores podrán revisar y ajustar las recurrencias antes de su ejecución, asegurando una programación precisa.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "20",
+      "Mejora usabilidad"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-07T22:18:10.231Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T22:18:10.231Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-07T22:18:10.231Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-07T22:18:10.231Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-07T22:18:10.231Z"
+      }
+    ]
+  },
+  {
+    "id": "66dbcad539ee007b96cdd9ff",
+    "title": "Reporte de Consumo de Gasolina",
+    "description": "Reporte de Consumo de Gasolina",
+    "customer": "Cristhie Diaz",
+    "category": "Reportes",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-07T03:39:01.351Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:39:01.351Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-07T03:39:01.351Z"
+      }
+    ]
+  },
+  {
+    "id": "66dbc7bca6789d94192dd36d",
+    "title": "Visualización del form configurado desde el web",
+    "description": "Esta funcionalidad permite a los usuarios de Delego visualizar en tiempo real cómo se verá el formulario que han configurado desde la plataforma web antes de ser desplegado en la aplicación móvil de los agentes de campo. Con esta herramienta, los usuarios pueden comprobar que todas las relaciones y condiciones entre preguntas están correctamente configuradas, asegurando que el formulario funcione según lo previsto. Esta vista previa incluye una simulación interactiva que refleja el flujo lógico del formulario, permitiendo realizar ajustes en tiempo real antes de su implementación.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "10",
+      "Req Crítico de Cliente"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-07T03:25:48.567Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:25:48.567Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-07T03:25:48.567Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-07T03:25:48.567Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-07T03:25:48.567Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2024-09-07T03:25:48.567Z"
+      }
+    ],
+    "subcategory": "Formularios"
+  },
+  {
+    "id": "66dbc77067e5cf09e39bf0fc",
+    "title": "Envío de notificaciones a más de 1 persona",
+    "description": "La funcionalidad permitirá enviar notificaciones a múltiples destinatarios de forma simultánea. Los usuarios podrán configurar varios contactos para recibir alertas automáticas relacionadas con el progreso de tareas. Estas notificaciones se distribuirán a través de correo electrónico.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Clients"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-07T03:24:32.593Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:24:32.593Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-07T03:24:32.593Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-07T03:24:32.593Z"
+      }
+    ]
+  },
+  {
+    "id": "66dbc73c9638a480ae8f52eb",
+    "title": "Módulo de costos",
+    "description": "Permitirá calcular y gestionar los gastos asociados a las operaciones de campo. Los usuarios podrán asignar costos a las distintas rutas, tareas y agentes de campo, obteniendo así una visión clara de los gastos operativos. Este módulo permitirá establecer tarifas por kilómetro, tiempo de ejecución y otros costos variables, como combustible y horas de trabajo. También ofrecerá reportes detallados que permitirán analizar los costos en tiempo real y optimizar los recursos, ayudando a reducir gastos innecesarios. Además, los usuarios podrán exportar estos análisis en formatos estándar, como Excel o PDF, para facilitar la toma de decisiones.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "5",
+      "Funcionalidad nueva"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-07T03:23:40.557Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:23:40.557Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-07T03:23:40.557Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-07T03:23:40.557Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-07T03:23:40.557Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66dbc5a592115e228987bb58",
+    "title": "Reportes Sumarizados",
+    "description": "Reportes Sumarizados",
+    "customer": "Cristhie Diaz",
+    "category": "Reportes",
+    "tags": [
+      "Clients"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-07T03:16:53.087Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:16:53.087Z"
+      }
+    ]
+  },
+  {
+    "id": "66dbc5814962ff4d1ea671b2",
+    "title": "Jornadas de trabajo por agente",
+    "description": "Jornadas de trabajo por agente",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [],
+    "status": "En espera",
+    "createdAt": "2024-09-07T03:16:17.095Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:16:17.095Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66dbc565a6789d94192b587b",
+    "title": "Carga masiva de clientes, agentes, hubs, teams, vehiculos",
+    "description": "Los usuarios podrán subir un archivo CSV o Excel con múltiples datos de clientes, como nombres, direcciones, contactos y otros campos personalizados, lo que reducirá el tiempo y esfuerzo necesarios para agregar clientes uno por uno. Esta funcionalidad incluirá validaciones automáticas para asegurar que los datos subidos cumplan con los formatos y requisitos establecidos. Además, permitirá gestionar grandes volúmenes de información de manera eficiente, optimizando la configuración inicial o actualizaciones de la base de clientes.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "25",
+      "Demo",
+      "Mejora usabilidad"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-07T03:15:49.731Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:15:49.731Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-07T03:15:49.731Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-07T03:15:49.731Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-07T03:15:49.731Z"
+      }
+    ]
+  },
+  {
+    "id": "66dbc544f52974fbe134d9d4",
+    "title": "Envio de reportes automatizado",
+    "description": "Envio de reportes automatizado",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Easy Design",
+      "Must have"
+    ],
+    "status": "En progreso",
+    "createdAt": "2024-09-07T03:15:16.068Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:15:16.068Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-07T03:15:16.068Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-07T03:15:16.068Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-07T03:15:16.068Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2024-09-07T03:15:16.068Z"
+      },
+      {
+        "customer": "Cliente 6",
+        "votedAt": "2024-09-07T03:15:16.068Z"
+      },
+      {
+        "customer": "Cliente 7",
+        "votedAt": "2024-09-07T03:15:16.068Z"
+      }
+    ]
+  },
+  {
+    "id": "66dbc53239ee007b96c70903",
+    "title": "Campos de cálculo en formulario",
+    "description": "Campos de cálculo en formulario",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "Must have"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-07T03:14:58.597Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-07T03:14:58.597Z"
+      }
+    ],
+    "subcategory": "Formularios"
+  },
+  {
+    "id": "66db864016642124d8572b4e",
+    "title": "Log de eventos",
+    "description": "Esta funcionalidad permite registrar y visualizar un historial detallado de todas las acciones realizadas sobre las tareas. Los usuarios pueden acceder a un registro que muestra quién editó una tarea, quién modificó la recurrencia, y quién desasignó o eliminó tareas. Cada evento incluye detalles como la acción realizada, el usuario responsable y la fecha y hora de la modificación.",
+    "customer": "Cristhie Diaz",
+    "category": "Reportes",
+    "tags": [
+      "Easy Design",
+      "Must have"
+    ],
+    "status": "Completada",
+    "createdAt": "2024-09-06T22:46:24.979Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-06T22:46:24.979Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-06T22:46:24.979Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-06T22:46:24.979Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-06T22:46:24.979Z"
+      }
+    ]
+  },
+  {
+    "id": "66db85e092115e2289544a33",
+    "title": "Edición de rutas",
+    "description": "Esta funcionalidad permite a los usuarios editar rutas previamente creadas para ajustarlas a las necesidades operativas en tiempo real. Los usuarios pueden modificar el orden de las tareas planificadas, agregar o eliminar tareas de la ruta, y ajustar las ventanas de atención para cumplir con los plazos establecidos. Además, es posible modificar la jornada de trabajo, optimizando así la gestión del tiempo y los recursos.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "25",
+      "Funcionalidad nueva"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-06T22:44:48.739Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-06T22:44:48.739Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-06T22:44:48.739Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-06T22:44:48.739Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-06T22:44:48.739Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2024-09-06T22:44:48.739Z"
+      },
+      {
+        "customer": "Cliente 6",
+        "votedAt": "2024-09-06T22:44:48.739Z"
+      }
+    ],
+    "subcategory": "Rutas"
+  },
+  {
+    "id": "66db7962db4e2ae1f1854066",
+    "title": "Portal de Creación de Tareas",
+    "description": "Este portal permite a los usuarios crear nuevas tareas relacionadas con un tipo de tarea específico o asignadas a un equipo en particular. A través de esta plataforma, los clientes pueden crear ordenes de un tipo de tarea especifico, o de un equipo específico, y configurar los detalles necesarios para su planificación, como la prioridad y el plazo de entrega. Esto facilita la gestión eficiente y centralizada de las tareas, asegurando que se asignen correctamente y se gestionen de acuerdo con las necesidades operativas.",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "5",
+      "Funcionalidad nueva"
+    ],
+    "status": "En espera",
+    "createdAt": "2024-09-06T21:51:30.760Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-06T21:51:30.760Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-06T21:51:30.760Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-06T21:51:30.760Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  },
+  {
+    "id": "66db748bf1f61511cde37421",
+    "title": "Portal de Seguimiento de Tareas para Clientes",
+    "description": "Este portal web permite a los clientes de los diferentes tenants monitorear el estado de sus tareas en tiempo real. Los usuarios pueden acceder a detalles como el estado actual de la tarea, si ha sido asignada, la hora de asignación y el agente responsable y demás estatus, el portal muestra si la tarea está en tránsito, en sitio, si ha experimentado retrasos y proporcionar acceso a la información del formulario que el agente ejecutó una vez que la tarea fue completada.\n\nCampos:\n\nESTATUS\n\nAGENTE\n\nUBICACION\n\nINFORMACION DE LA TAREA\n\nINFORMACION DEL FORM",
+    "customer": "Cristhie Diaz",
+    "category": "Web",
+    "tags": [
+      "15",
+      "Funcionalidad nueva"
+    ],
+    "status": "En progreso",
+    "createdAt": "2024-09-06T21:30:51.323Z",
+    "votes": [
+      {
+        "customer": "Cliente 1",
+        "votedAt": "2024-09-06T21:30:51.323Z"
+      },
+      {
+        "customer": "Cliente 2",
+        "votedAt": "2024-09-06T21:30:51.323Z"
+      },
+      {
+        "customer": "Cliente 3",
+        "votedAt": "2024-09-06T21:30:51.323Z"
+      },
+      {
+        "customer": "Cliente 4",
+        "votedAt": "2024-09-06T21:30:51.323Z"
+      },
+      {
+        "customer": "Cliente 5",
+        "votedAt": "2024-09-06T21:30:51.323Z"
+      },
+      {
+        "customer": "Cliente 6",
+        "votedAt": "2024-09-06T21:30:51.323Z"
+      }
+    ],
+    "subcategory": "Tareas"
+  }
+]
