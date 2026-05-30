@@ -7,6 +7,7 @@ import { supabase } from "./supabase";
 interface FeaturesContextValue {
   features: Feature[];
   loading: boolean;
+  refresh: () => Promise<void>;
   addFeature: (f: Omit<Feature, "id" | "createdAt" | "votes" | "status">) => Promise<void>;
   updateFeature: (id: string, data: Partial<Pick<Feature, "title" | "description" | "customer" | "category" | "subcategory" | "tags" | "status">>) => Promise<void>;
   deleteFeature: (id: string) => Promise<void>;
@@ -87,8 +88,7 @@ export function FeaturesProvider({ children }: { children: React.ReactNode }) {
       tags: data.tags,
       status: data.status,
     }).eq("id", id);
-    // Optimistic refresh — no espera real-time
-    fetchFeatures().then(setFeatures);
+    // Refresh happens after caller finishes (e.g. after votes are saved too)
   }, []);
 
   const deleteFeature = useCallback(async (id: string) => {
@@ -110,8 +110,12 @@ export function FeaturesProvider({ children }: { children: React.ReactNode }) {
     await supabase.from("votes").insert({ feature_id: id, customer, voted_at: vote.votedAt });
   }, []);
 
+  const refresh = useCallback(async () => {
+    fetchFeatures().then(setFeatures);
+  }, []);
+
   return (
-    <FeaturesContext.Provider value={{ features, loading, addFeature, updateFeature, deleteFeature, updateStatus, addVote }}>
+    <FeaturesContext.Provider value={{ features, loading, refresh, addFeature, updateFeature, deleteFeature, updateStatus, addVote }}>
       {children}
     </FeaturesContext.Provider>
   );

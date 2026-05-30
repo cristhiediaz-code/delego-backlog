@@ -11,7 +11,7 @@ import { supabase } from "@/lib/supabase";
 interface Props { feature: Feature; onClose: () => void; }
 
 export function EditFeatureModal({ feature, onClose }: Props) {
-  const { updateFeature } = useFeatures();
+  const { updateFeature, refresh } = useFeatures();
   const [mounted, setMounted] = useState(false);
   const [title, setTitle] = useState(feature.title);
   const [description, setDescription] = useState(feature.description);
@@ -62,21 +62,27 @@ export function EditFeatureModal({ feature, onClose }: Props) {
 
     const tags = tagsInput.split(",").map((t) => t.trim()).filter(Boolean);
 
-    // Update feature fields
+    // 1. Update feature fields
     await updateFeature(feature.id, {
       title: title.trim(), description: description.trim(), customer: customer.trim(),
       category, subcategory: category === "Web" ? (subcategory as WebSubcategory) : undefined,
       status, tags,
     });
 
-    // Update voters: delete all existing votes and re-insert
+    // 2. Replace votes: delete all then insert new list
     await supabase.from("votes").delete().eq("feature_id", feature.id);
-    if (voters.length > 0) {
+    if (voters.filter(v => v.trim()).length > 0) {
       await supabase.from("votes").insert(
-        voters.map((v) => ({ feature_id: feature.id, customer: v, voted_at: new Date().toISOString() }))
+        voters.filter(v => v.trim()).map((v) => ({
+          feature_id: feature.id,
+          customer: v.trim(),
+          voted_at: new Date().toISOString(),
+        }))
       );
     }
 
+    // 3. Refresh once after everything is saved
+    await refresh();
     onClose();
   }
 
