@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo } from "react";
-import { Trophy, CheckCircle2, Download, Loader2 } from "lucide-react";
+import { useMemo, useState } from "react";
+import { Trophy, CheckCircle2, Download, Loader2, Search } from "lucide-react";
 import { useFeatures } from "@/lib/context";
 import { FeatureCard } from "@/components/FeatureCard";
 import { VotesChart } from "@/components/VotesChart";
@@ -32,11 +32,22 @@ function exportCSV(features: Feature[]) {
 
 export default function RankingPage() {
   const { features, loading } = useFeatures();
+  const [query, setQuery] = useState("");
 
-  const ranked = useMemo(
-    () => features.filter((f) => f.status !== "Completada").sort((a, b) => b.votes.length - a.votes.length),
-    [features]
-  );
+  const ranked = useMemo(() => {
+    const q = query.toLowerCase();
+    return features
+      .filter((f) => f.status !== "Completada")
+      .filter((f) =>
+        !q ||
+        f.title.toLowerCase().includes(q) ||
+        f.description.toLowerCase().includes(q) ||
+        f.customer.toLowerCase().includes(q) ||
+        f.tags.some((t) => t.toLowerCase().includes(q))
+      )
+      .sort((a, b) => b.votes.length - a.votes.length);
+  }, [features, query]);
+
   const completed = features.filter((f) => f.status === "Completada").length;
 
   return (
@@ -63,6 +74,17 @@ export default function RankingPage() {
         </div>
       </div>
 
+      {/* Buscador */}
+      <div className="relative">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Buscar en el ranking..."
+          className="input pl-9"
+        />
+      </div>
+
       {loading ? (
         <div className="flex items-center justify-center py-20 text-gray-400 gap-2">
           <Loader2 className="w-5 h-5 animate-spin" />
@@ -70,20 +92,20 @@ export default function RankingPage() {
         </div>
       ) : (
         <>
-          {ranked.length > 0 && <VotesChart features={ranked} />}
+          {!query && ranked.length > 0 && <VotesChart features={ranked} />}
           {ranked.length === 0 ? (
             <div className="text-center py-16 text-gray-400">
-              <Trophy className="w-10 h-10 mx-auto mb-3 opacity-30" />
-              <p className="font-medium">No hay funcionalidades pendientes</p>
+              <Search className="w-10 h-10 mx-auto mb-3 opacity-30" />
+              <p className="font-medium">{query ? "Sin resultados para esa búsqueda" : "No hay funcionalidades pendientes"}</p>
             </div>
           ) : (
             <div className="space-y-3">
               {ranked.map((f, i) => (
                 <div key={f.id} className="relative">
-                  {i === 0 && <div className="absolute -top-1 -right-1 z-10 text-lg">🥇</div>}
-                  {i === 1 && <div className="absolute -top-1 -right-1 z-10 text-lg">🥈</div>}
-                  {i === 2 && <div className="absolute -top-1 -right-1 z-10 text-lg">🥉</div>}
-                  <FeatureCard feature={f} rank={i + 1} />
+                  {!query && i === 0 && <div className="absolute -top-1 -right-1 z-10 text-lg">🥇</div>}
+                  {!query && i === 1 && <div className="absolute -top-1 -right-1 z-10 text-lg">🥈</div>}
+                  {!query && i === 2 && <div className="absolute -top-1 -right-1 z-10 text-lg">🥉</div>}
+                  <FeatureCard feature={f} rank={!query ? i + 1 : undefined} />
                 </div>
               ))}
             </div>

@@ -1,27 +1,34 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Search, Filter, Loader2 } from "lucide-react";
+import { Search, Filter, Loader2, ArrowUpDown } from "lucide-react";
 import { useFeatures } from "@/lib/context";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Category, Status } from "@/types";
 import { CATEGORIES, STATUSES } from "@/lib/constants";
+
+type SortOption = "fecha" | "votos-desc" | "votos-asc";
 
 export default function ExplorerPage() {
   const { features, loading } = useFeatures();
   const [query, setQuery] = useState("");
   const [filterCategory, setFilterCategory] = useState<Category | "Todas">("Todas");
   const [filterStatus, setFilterStatus] = useState<Status | "Todos">("Todos");
+  const [sort, setSort] = useState<SortOption>("fecha");
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase();
-    return features.filter((f) => {
+    const result = features.filter((f) => {
       const matchesSearch = !q || f.title.toLowerCase().includes(q) || f.description.toLowerCase().includes(q) || f.customer.toLowerCase().includes(q) || f.tags.some((t) => t.toLowerCase().includes(q));
       const matchesCategory = filterCategory === "Todas" || f.category === filterCategory;
       const matchesStatus = filterStatus === "Todos" || f.status === filterStatus;
       return matchesSearch && matchesCategory && matchesStatus;
     });
-  }, [features, query, filterCategory, filterStatus]);
+
+    if (sort === "votos-desc") return [...result].sort((a, b) => b.votes.length - a.votes.length);
+    if (sort === "votos-asc") return [...result].sort((a, b) => a.votes.length - b.votes.length);
+    return [...result].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+  }, [features, query, filterCategory, filterStatus, sort]);
 
   return (
     <div className="space-y-6">
@@ -35,7 +42,7 @@ export default function ExplorerPage() {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
           <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Buscar por título, cliente o tag..." className="input pl-9" />
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           <Filter className="w-4 h-4 text-gray-400 flex-shrink-0" />
           <select value={filterCategory} onChange={(e) => setFilterCategory(e.target.value as Category | "Todas")} className="input w-auto">
             <option value="Todas">Todas las categorías</option>
@@ -45,6 +52,14 @@ export default function ExplorerPage() {
             <option value="Todos">Todos los estatus</option>
             {STATUSES.map((s) => <option key={s} value={s}>{s}</option>)}
           </select>
+          <div className="flex items-center gap-1.5">
+            <ArrowUpDown className="w-4 h-4 text-gray-400 flex-shrink-0" />
+            <select value={sort} onChange={(e) => setSort(e.target.value as SortOption)} className="input w-auto">
+              <option value="fecha">Más recientes</option>
+              <option value="votos-desc">Mayor votos</option>
+              <option value="votos-asc">Menor votos</option>
+            </select>
+          </div>
         </div>
       </div>
 
