@@ -1,76 +1,103 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useState, useCallback } from "react";
-import { Feature, Status, Vote } from "@/types";
-import { loadFeatures, saveFeatures } from "./storage";
+import { Feature, Status, Vote, Category, WebSubcategory } from "@/types";
+import { supabase } from "./supabase";
 
 interface FeaturesContextValue {
   features: Feature[];
-  addFeature: (f: Omit<Feature, "id" | "createdAt" | "votes" | "status">) => void;
-  updateFeature: (id: string, data: Partial<Pick<Feature, "title" | "description" | "customer" | "category" | "subcategory" | "tags" | "status">>) => void;
-  deleteFeature: (id: string) => void;
-  updateStatus: (id: string, status: Status) => void;
-  addVote: (id: string, customer: string) => void;
+  loading: boolean;
+  addFeature: (f: Omit<Feature, "id" | "createdAt" | "votes" | "status">) => Promise<void>;
+  updateFeature: (id: string, data: Partial<Pick<Feature, "title" | "description" | "customer" | "category" | "subcategory" | "tags" | "status">>) => Promise<void>;
+  deleteFeature: (id: string) => Promise<void>;
+  updateStatus: (id: string, status: Status) => Promise<void>;
+  addVote: (id: string, customer: string) => Promise<void>;
 }
 
 const FeaturesContext = createContext<FeaturesContextValue | null>(null);
 
+// Fetch all features with their votes from Supabase
+async function fetchFeatures(): Promise<Feature[]> {
+  const { data: featuresData, error } = await supabase
+    .from("features")
+    .select("*, votes(*)")
+    .order("created_at", { ascending: true });
+
+  if (error) { console.error(error); return []; }
+
+  return (featuresData ?? []).map((f: any) => ({
+    id: f.id,
+    title: f.title,
+    description: f.description ?? "",
+    customer: f.customer ?? "",
+    category: f.category as Category,
+    subcategory: f.subcategory as WebSubcategory | undefined,
+    tags: f.tags ?? [],
+    status: f.status as Status,
+    createdAt: f.created_at,
+    votes: (f.votes ?? []).map((v: any): Vote => ({
+      customer: v.customer,
+      votedAt: v.voted_at,
+    })),
+  }));
+}
+
 export function FeaturesProvider({ children }: { children: React.ReactNode }) {
   const [features, setFeatures] = useState<Feature[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  useEffect(() => { setFeatures(loadFeatures()); }, []);
+  useEffect(() => {
+    fetchFeatures().then((data) => { setFeatures(data); setLoading(false); });
 
-  const persist = useCallback((next: Feature[]) => {
-    setFeatures(next);
-    saveFeatures(next);
+    // Real-time: reload when features or votes change
+    const channel = supabase
+      .channel("realtime-backlog")
+      .on("postgres_changes", { event: "*", schema: "public", table: "features" }, () => {
+        fetchFeatures().then(setFeatures);
+      })
+      .on("postgres_changes", { event: "*", schema: "public", table: "votes" }, () => {
+        fetchFeatures().then(setFeatures);
+      })
+      .subscribe();
+
+    return () => { supabase.removeChannel(channel); };
   }, []);
 
-  const addFeature = useCallback(
-    (data: Omit<Feature, "id" | "createdAt" | "votes" | "status">) => {
-      const newFeature: Feature = {
-        ...data,
-        id: crypto.randomUUID(),
-        createdAt: new Date().toISOString(),
-        status: "En espera",
-        votes: [{ customer: data.customer, votedAt: new Date().toISOString() }],
-      };
-      persist([...features, newFeature]);
-    },
-    [features, persist]
-  );
+  const addFeature = useCallback(async (data: Omit<Feature, "id" | "createdAt" | "votes" | "status">) => {
+    const id = crypto.randomUUID();
+    const now = new Date().toISOString();
+    await supabase.from("features").insert({
+      id, title: data.title, description: data.description,
+      customer: data.customer, category: data.category,
+      subcategory: data.subcategory ?? null, tags: data.tags,
+      status: "En espera", created_at: now,
+    });
+    await supabase.from("votes").insert({ feature_id: id, customer: data.customer, voted_at: now });
+  }, []);
 
-  const updateFeature = useCallback(
-    (id: string, data: Partial<Pick<Feature, "title" | "description" | "customer" | "category" | "subcategory" | "tags" | "status">>) => {
-      persist(features.map((f) => (f.id === id ? { ...f, ...data } : f)));
-    },
-    [features, persist]
-  );
+  const updateFeature = useCallback(async (id: string, data: Partial<Pick<Feature, "title" | "description" | "customer" | "category" | "subcategory" | "tags" | "status">>) => {
+    await supabase.from("features").update({
+      title: data.title, description: data.description,
+      customer: data.customer, category: data.category,
+      subcategory: data.subcategory ?? null, tags: data.tags,
+      status: data.status,
+    }).eq("id", id);
+  }, []);
 
-  const deleteFeature = useCallback(
-    (id: string) => { persist(features.filter((f) => f.id !== id)); },
-    [features, persist]
-  );
+  const deleteFeature = useCallback(async (id: string) => {
+    await supabase.from("features").delete().eq("id", id);
+  }, []);
 
-  const updateStatus = useCallback(
-    (id: string, status: Status) => {
-      persist(features.map((f) => (f.id === id ? { ...f, status } : f)));
-    },
-    [features, persist]
-  );
+  const updateStatus = useCallback(async (id: string, status: Status) => {
+    await supabase.from("features").update({ status }).eq("id", id);
+  }, []);
 
-  const addVote = useCallback(
-    (id: string, customer: string) => {
-      persist(features.map((f) => {
-        if (f.id !== id) return f;
-        const vote: Vote = { customer, votedAt: new Date().toISOString() };
-        return { ...f, votes: [...f.votes, vote] };
-      }));
-    },
-    [features, persist]
-  );
+  const addVote = useCallback(async (id: string, customer: string) => {
+    await supabase.from("votes").insert({ feature_id: id, customer, voted_at: new Date().toISOString() });
+  }, []);
 
   return (
-    <FeaturesContext.Provider value={{ features, addFeature, updateFeature, deleteFeature, updateStatus, addVote }}>
+    <FeaturesContext.Provider value={{ features, loading, addFeature, updateFeature, deleteFeature, updateStatus, addVote }}>
       {children}
     </FeaturesContext.Provider>
   );

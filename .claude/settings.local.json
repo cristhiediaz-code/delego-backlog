@@ -16,7 +16,8 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git rm *)",
-      "Bash(rm -rf .git && git init && git add . && git commit -m \"Initial commit - Delego Backlog\" 2>&1 | tail -5)"
+      "Bash(rm -rf .git && git init && git add . && git commit -m \"Initial commit - Delego Backlog\" 2>&1 | tail -5)",
+      "Bash(npm install *)"
     ]
   }
 }
