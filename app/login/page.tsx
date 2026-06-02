@@ -18,12 +18,29 @@ export default function LoginPage() {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      background: "linear-gradient(135deg, #eef2ff 0%, #f8faff 60%, #e0e7ff 100%)",
+      position: "relative",
+      overflow: "hidden",
+      background: "#ffffff",
     }}>
+      {/* Fondo con patrón SVG de nodos */}
       <div style={{
-        background: "white",
+        position: "absolute",
+        inset: 0,
+        backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke-width='1.8' stroke-linecap='round'%3E%3C!-- nodo superior izquierdo --%3E%3Ccircle cx='28' cy='22' r='4' stroke='%23a78bfa' fill='none'/%3E%3C!-- nodo superior derecho --%3E%3Ccircle cx='62' cy='22' r='4' stroke='%2393c5fd' fill='none'/%3E%3C!-- nodo inferior --%3E%3Ccircle cx='28' cy='58' r='4' stroke='%23a78bfa' fill='none'/%3E%3C!-- líneas --%3E%3Cline x1='28' y1='22' x2='62' y2='22' stroke='%23a78bfa'/%3E%3Cline x1='28' y1='22' x2='28' y2='58' stroke='%2393c5fd'/%3E%3Cline x1='28' y1='22' x2='62' y2='58' stroke='%23c4b5fd'/%3E%3Ccircle cx='62' cy='58' r='4' stroke='%2393c5fd' fill='none'/%3E%3C/g%3E%3C/svg%3E")`,
+        backgroundSize: "120px 120px",
+        opacity: 0.45,
+        zIndex: 0,
+      }} />
+
+      {/* Card de login */}
+      <div style={{
+        position: "relative",
+        zIndex: 1,
+        background: "rgba(255,255,255,0.85)",
+        backdropFilter: "blur(12px)",
         borderRadius: "1.5rem",
-        boxShadow: "0 20px 60px rgba(79,110,247,0.12)",
+        boxShadow: "0 20px 60px rgba(79,110,247,0.15)",
+        border: "1px solid rgba(255,255,255,0.9)",
         padding: "3rem 3.5rem",
         display: "flex",
         flexDirection: "column",
