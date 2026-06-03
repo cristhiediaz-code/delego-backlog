@@ -1,18 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- fondo azul redondeado -->
-  <rect width="100" height="100" rx="22" fill="#5B6BE8"/>
-  <!-- línea superior horizontal -->
-  <line x1="22" y1="25" x2="78" y2="25" stroke="white" stroke-width="7" stroke-linecap="round"/>
-  <!-- línea diagonal -->
-  <line x1="22" y1="25" x2="58" y2="75" stroke="white" stroke-width="7" stroke-linecap="round"/>
-  <!-- línea vertical derecha -->
-  <line x1="78" y1="25" x2="78" y2="75" stroke="white" stroke-width="7" stroke-linecap="round"/>
-  <!-- nodo superior izquierdo -->
-  <circle cx="22" cy="25" r="8" fill="#5B6BE8" stroke="white" stroke-width="6"/>
-  <!-- nodo superior derecho -->
-  <circle cx="78" cy="25" r="8" fill="#5B6BE8" stroke="white" stroke-width="6"/>
-  <!-- nodo medio -->
-  <circle cx="58" cy="75" r="8" fill="#5B6BE8" stroke="white" stroke-width="6"/>
-  <!-- nodo inferior derecho -->
-  <circle cx="78" cy="75" r="8" fill="#5B6BE8" stroke="white" stroke-width="6"/>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 774">
+  <rect width="240" height="774" rx="120" fill="#5B6BE8"/>
+  <g transform="translate(0,774) scale(0.100000,-0.100000)" fill="white" stroke="none">
+    <path d="M333 5870 c-235 -49 -355 -299 -247 -512 33 -66 95 -125 163 -157 48
+-22 69 -26 151 -26 81 0 103 4 150 26 66 31 133 96 166 161 l24 48 592 -2 593
+-3 9 -27 c9 -26 -13 -49 -538 -581 l-547 -555 -52 20 c-72 28 -183 28 -257 0
+-286 -110 -299 -520 -21 -651 48 -22 69 -26 151 -26 81 0 103 4 150 26 70 33
+136 99 169 169 32 69 41 192 18 259 l-16 44 551 559 c303 307 556 558 562 558
+7 0 19 -6 28 -12 14 -12 14 -96 -6 -933 l-21 -920 -45 -21 c-270 -129 -271
+-516 -1 -643 48 -22 69 -26 151 -26 81 0 103 4 150 26 70 33 136 99 169 169
+23 48 26 68 26 155 0 90 -3 105 -28 153 -36 68 -105 138 -163 163 l-44 20 0
+77 c0 42 9 448 20 902 11 454 20 835 20 847 0 16 13 27 53 46 67 31 133 97
+166 167 23 48 26 68 26 155 0 90 -3 105 -29 154 -39 76 -113 145 -183 172 -79
+30 -187 30 -266 -1 -75 -28 -166 -115 -192 -182 l-18 -48 -587 0 -587 0 -24
+52 c-33 73 -114 151 -181 176 -66 25 -149 34 -205 22z m145 -229 c33 -18 62
+-70 62 -114 0 -108 -108 -178 -203 -132 -68 32 -98 125 -63 194 37 71 126 94
+204 52z m1860 0 c33 -18 62 -70 62 -114 0 -108 -108 -178 -203 -132 -68 32
+-98 125 -63 194 37 71 126 94 204 52z m-1590 -1590 c33 -18 62 -70 62 -114 0
+-108 -108 -178 -203 -132 -68 32 -98 125 -63 194 37 71 126 94 204 52z m1540
+-940 c33 -18 62 -70 62 -114 0 -108 -108 -178 -203 -132 -68 32 -98 125 -63
+194 37 71 126 94 204 52z"/>
+  </g>
 </svg>
